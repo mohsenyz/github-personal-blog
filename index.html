@@ -1,0 +1,17 @@
+---
+layout: default
+title: Mphj Blog
+page-title: Welcome to Mphj Blog
+home-title: Learn programming skills, follow news
+---
+
+{% include header.html %}
+{% include boot.html %}
+<main>
+    {% include title.html %}
+    <ul class="post-list">
+      {% include posts_paginator.html %}
+    </ul>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
